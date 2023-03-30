@@ -203,11 +203,14 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     top: -65px;
     position: relative;
 }
-.section-2 {
-    background-image: url('/images/section-2/background-section-2.png');
+#section-2 > .section-background-2 {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-image: url('images/section-2/background-section-2.png');
     background-size: cover;
     background-origin: content-box;
-    background-position: 50% 0%;
+    background-position: 50% 100%;
     background-repeat: repeat;
     background-attachment: scroll;
 }
@@ -266,11 +269,14 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     top: -70px;
     position: relative;
 }
-.section-3 {
-    background-image: url('/images/section-3/background.png');
+#section-3 > .section-background-3 {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-image: url('images/section-3/background.png');
     background-size: cover;
     background-origin: content-box;
-    background-position: 50% 0%;
+    background-position: 50% 100%;
     background-repeat: repeat;
     background-attachment: scroll;
 }
@@ -542,11 +548,14 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     top: -70px;
     position: relative;
 }
-.section-7 {
-    background-image: url('/images/section-7/background.png');
+#section-7 > .section-background-7 {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-image: url('images/section-7/background.png');
     background-size: cover;
     background-origin: content-box;
-    background-position: 50% 0%;
+    background-position: 50% 100%;
     background-repeat: repeat;
     background-attachment: scroll;
 }
